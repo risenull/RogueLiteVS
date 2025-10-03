@@ -24,6 +24,29 @@
                 ],
                 "limitSymbolsToIncludedHeaders": true
             }
+        },
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/src",
+                "${workspaceFolder}/lib/SDL3/include",
+                "/Library/Developer/CommandLineTools/usr/include",
+                "/Library/Developer/CommandLineTools/usr/lib/clang/17.0.0/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang++",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "macos-clang-x64",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/src",
+                    "${workspaceFolder}/lib/SDL3/include",
+                    "/Library/Developer/CommandLineTools/usr/include",
+                    "/Library/Developer/CommandLineTools/usr/lib/clang/17.0.0/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
         }
     ]
 }
